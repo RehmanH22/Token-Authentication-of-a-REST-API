@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3555dffb-6af5-4da5-b376-58da6fba5751" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Books.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_05_102512_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_05_102512_create_books_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620137206989</updated>
       <workItem from="1620137208096" duration="1786000" />
-      <workItem from="1620209016961" duration="2041000" />
+      <workItem from="1620209016961" duration="2236000" />
     </task>
     <servers />
   </component>
