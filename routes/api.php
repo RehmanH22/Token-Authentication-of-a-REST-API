@@ -15,6 +15,11 @@ use App\Http\Controllers\BooksAPIController;
 |
 */
 Route::get('/books', [BooksAPIController::class, 'index']);
+Route::get('/books/{id}', [BooksAPIController::class, 'show']);
+Route::post('/books', [BooksAPIController::class, 'store']);
+Route::put('/books/{id}', [BooksAPIController::class, 'update']);
+Route::delete('/books/{id}', [BooksAPIController::class, 'delete']);
+Route::get('/books/search/{name}', [BooksAPIController::class, 'search']);
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
