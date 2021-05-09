@@ -46,7 +46,7 @@ class BooksAPIController extends Controller
      */
     public function show($id)
     {
-        //
+        return Book::find($id);
     }
 
     /**
