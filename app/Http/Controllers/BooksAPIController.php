@@ -24,7 +24,7 @@ class BooksAPIController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -35,7 +35,14 @@ class BooksAPIController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'chaptertitle' => 'required',
+            'slug' => 'required',
+            'chapter' => 'required',
+            'price' => 'required'
+        ]);
+
+        return Book::create($request->all());
     }
 
     /**
@@ -69,7 +76,9 @@ class BooksAPIController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $book = Book::find($id);
+        $book->update($request->all());
+        return $book;
     }
 
     /**
