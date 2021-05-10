@@ -91,4 +91,15 @@ class BooksAPIController extends Controller
     {
         return Book::destroy($id);
     }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  str $chaptertitle
+     * @return \Illuminate\Http\Response
+     */
+    public function search($chaptertitle)
+    {
+        return Book::where('chaptertitle', 'like',  '%'.$chaptertitle.'%')->get();
+    }
 }
