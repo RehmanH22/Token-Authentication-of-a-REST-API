@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3555dffb-6af5-4da5-b376-58da6fba5751" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3555dffb-6af5-4da5-b376-58da6fba5751" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,6 +139,7 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="ProjectId" id="1s4gJo0Av1McDCVpCh0YiwJK9Ma" />
@@ -174,7 +173,7 @@
       <workItem from="1620306573502" duration="4239000" />
       <workItem from="1620564973538" duration="2890000" />
       <workItem from="1620652751000" duration="4585000" />
-      <workItem from="1620731172565" duration="2981000" />
+      <workItem from="1620731172565" duration="3356000" />
     </task>
     <servers />
   </component>
