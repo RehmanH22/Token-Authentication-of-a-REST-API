@@ -28,7 +28,7 @@ Route::get('/books/search/{name}', [BooksAPIController::class, 'search']);
 
 //--------------------------------------------------Protected Routes
 Route::group(['middleware' => ['auth:sanctum']], function() {
-    //
+    Route::post('/logout', [UserAPIController::class, 'logout']);
 });
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
