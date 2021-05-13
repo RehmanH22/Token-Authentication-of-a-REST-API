@@ -15,16 +15,16 @@ use App\Http\Controllers\UserController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-//--------------------------------------------------Public Routes
-//Auth
+
+//Public Routes
 Route::post('/register', [UserController::class, 'register']);
 Route::post('/login', [UserController::class, 'login']);
-//REST
+
 Route::get('/books', [BooksAPIController::class, 'index']);
 Route::get('/books/{id}', [BooksAPIController::class, 'show']);
 Route::get('/books/search/{name}', [BooksAPIController::class, 'search']);
 
-//--------------------------------------------------Protected Routes
+//Protected Routes
 Route::group(['middleware' => ['auth:sanctum']], function() {
     Route::post('/books', [BooksAPIController::class, 'store']);
     Route::put('/books/{id}', [BooksAPIController::class, 'update']);
