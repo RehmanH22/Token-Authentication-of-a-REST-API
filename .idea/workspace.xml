@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3555dffb-6af5-4da5-b376-58da6fba5751" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksAPIController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_05_102512_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_05_102512_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +184,8 @@
       <workItem from="1620731172565" duration="8858000" />
       <workItem from="1620815573537" duration="3148000" />
       <workItem from="1620907466897" duration="5236000" />
-      <workItem from="1620993629811" duration="2894000" />
+      <workItem from="1620993629811" duration="7084000" />
+      <workItem from="1621083078134" duration="8693000" />
     </task>
     <servers />
   </component>
@@ -203,10 +209,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="547" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1620210776525" />
-    <state x="531" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620210832824">
+    <state x="531" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620999537143">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="531" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1620210832824" />
+    <state x="531" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1620999537143" />
     <state width="1558" height="223" key="GridCell.Tab.0.bottom" timestamp="1620225594743">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

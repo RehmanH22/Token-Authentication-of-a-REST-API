@@ -27,7 +27,6 @@ class BooksAPIController extends Controller
     {
         $request->validate([
             'chaptertitle' => 'required',
-            'slug' => 'required',
             'chapter' => 'required',
             'price' => 'required'
         ]);

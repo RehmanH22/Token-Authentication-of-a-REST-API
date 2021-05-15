@@ -26,7 +26,8 @@
         <h1 class="text-4xl font-bold mb-4">Books</h1>
         @foreach($books as $book)
             <article class="mb-2">
-                <h2 class="text-xl font-bold text-blue-500">{{ $book->chaptertitle }}</h2>
+                <a href="/books/{{ $book->id }}/edit" class="text-xl font-bold text-blue-500">{{ $book->chaptertitle }}</a>
+                <br />
                 <h3 class="inline-block align-middle text-gray-800"> £{{$book->price }} </h3>
                 <p class="text-md text-gray-600">{{ $book->chapter }}</p>
 
