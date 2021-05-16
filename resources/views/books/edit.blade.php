@@ -15,17 +15,17 @@
 
             <div class="mb-4">
                 <label class="font-bold text-gray-800" for="title">Title: </label>
-                <input class="h-10 bg-white border border-gray-300 rounded py-4 px-3 mr-4 w-full text-gray-600 text-sm focus:outline-none focus:border-gray-400 focus:ring-0" id="title" name="title" value="{{ $book->chaptertitle }}">
+                <input class="h-10 bg-white border border-gray-300 rounded py-4 px-3 mr-4 w-full text-gray-600 text-sm focus:outline-none focus:border-gray-400 focus:ring-0" id="title" name="title" value="{{ $book->title }}">
             </div>
 
             <div class="mb-4">
-                <label class="font-bold text-gray-800" for="content">Description: </label>
-                <textarea class="h-16 bg-white border border-gray-300 rounded py-4 px-3 mr-4 w-full text-gray-600 text-sm focus:outline-none focus:border-gray-400 focus:ring-0" id="content" name="description">{{ $book->chapter }}</textarea>
+                <label class="font-bold text-gray-800" for="description">Description: </label>
+                <textarea class="h-16 bg-white border border-gray-300 rounded py-4 px-3 mr-4 w-full text-gray-600 text-sm focus:outline-none focus:border-gray-400 focus:ring-0" id="description" name="description">{{ $book->description }}</textarea>
             </div>
 
             <div class="mb-4">
-                <label class="font-bold text-gray-800" for="title">Price: </label>
-                <input class="h-10 bg-white border border-gray-300 rounded py-4 px-3 mr-4 w-full text-gray-600 text-sm focus:outline-none focus:border-gray-400 focus:ring-0" id="title" name="price" value="{{ $book->price }}">
+                <label class="font-bold text-gray-800" for="price">Price: </label>
+                <input class="h-10 bg-white border border-gray-300 rounded py-4 px-3 mr-4 w-full text-gray-600 text-sm focus:outline-none focus:border-gray-400 focus:ring-0" id="price" name="price" value="{{ $book->price }}">
             </div>
 
             <button class="bg-blue-500 tracking-wide text-white px-6 py-2 inline-block mb-6 shadow-lg rounded hover:shadow">Update</button>

@@ -15,8 +15,8 @@ class CreateBooksTable extends Migration
     {
         Schema::create('books', function (Blueprint $table) {
             $table->id();
-            $table->string('chaptertitle');
-            $table->longText('chapter');
+            $table->string('title');
+            $table->longText('description');
             $table->decimal('price', 5,2);
             $table->timestamps();
         });

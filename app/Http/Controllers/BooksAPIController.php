@@ -26,8 +26,8 @@ class BooksAPIController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'chaptertitle' => 'required',
-            'chapter' => 'required',
+            'title' => 'required',
+            'description' => 'required',
             'price' => 'required'
         ]);
 
@@ -73,11 +73,11 @@ class BooksAPIController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  str $chaptertitle
+     * @param  str $title
      * @return \Illuminate\Http\Response
      */
-    public function search($chaptertitle)
+    public function search($title)
     {
-        return Book::where('chaptertitle', 'like',  '%'.$chaptertitle.'%')->get();
+        return Book::where('title', 'like',  '%'.$title.'%')->get();
     }
 }

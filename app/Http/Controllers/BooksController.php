@@ -23,16 +23,14 @@ class BooksController extends Controller
     {
         //dd(request()->all());
 
-        request()->validate([
-            'chaptertitle' => 'required',
-            'chapter' => 'required',
+        $validatedAttributes = request()->validate([
+            'title' => 'required',
+            'description' => 'required',
             'price' => 'required',
         ]);
 
-        $book->update([
-            'chaptertitle' => request('title'),
-            'chapter' => request('title'),
-            'price' => request('title'),
-        ]);
+        $book->update($validatedAttributes);
+
+        return redirect('/books');
     }
 }
