@@ -14,6 +14,24 @@ class BooksController extends Controller
         return view('books.index', ['books' => $books]);
     }
 
+    public function create()
+    {
+        return view('books.create');
+    }
+
+    public function store()
+    {
+        $validatedAttributes = request()->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'price' => 'required',
+        ]);
+
+        Book::create($validatedAttributes);
+
+        return redirect('/books');
+    }
+
     public function edit(Book $book) {
 
         return view('books.edit', ['book' => $book]);

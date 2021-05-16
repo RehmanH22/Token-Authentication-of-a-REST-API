@@ -23,7 +23,15 @@
     </nav>
     <body>
     <div style="width: 900px;" class="container max-w-full mx-auto pt-4">
-        <h1 class="text-4xl font-bold mb-4">Books</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <div>
+                <h1 class="text-4xl font-bold mb-4">Books</h1>
+            </div>
+            <div></div>
+            <div>
+                <a href="/books/create" class="bg-blue-500 tracking-wide text-white px-6 py-2 float-right mb-6 shadow-lg rounded hover:shadow my-4">Add Book</a>
+            </div>
+        </div>
         @foreach($books as $book)
             <article class="mb-2">
                 <a href="/books/{{ $book->id }}/edit" class="text-xl font-bold text-blue-500">{{ $book->title }}</a>
@@ -38,5 +46,6 @@
             {{ $books->links() }}
         </div>
     </div>
+
     </body>
 </html>

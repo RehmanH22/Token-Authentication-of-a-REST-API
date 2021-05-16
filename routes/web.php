@@ -19,8 +19,8 @@ Route::get('/', function () {
 });
 
 Route::get('/books', [BooksController::class, 'index']);
-//Route::post('/books', [BooksController::class, 'store']);
-//Route::get('/books/create', [BooksController::class, 'create']);
+Route::post('/books', [BooksController::class, 'store']);
+Route::get('/books/create', [BooksController::class, 'create']);
 Route::get('/books/{book}/edit', [BooksController::class, 'edit']);
 Route::put('/books/{book}', [BooksController::class, 'update']);
 //Route::delete('/books/{book}', [BooksController::class, 'destroy']);
