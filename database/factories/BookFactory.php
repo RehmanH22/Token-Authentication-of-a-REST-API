@@ -22,9 +22,9 @@ class BookFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->numerify('Book ##'),
+            'title' => $this->faker->numerify('Book ###'),
             'description' => $this->faker->words(100,60),
-            'price' => $this->faker->numberBetween(1,30),
+            'price' => $this->faker->randomFloat($nbMaxDecimals = 2, $min = 4, $max = 30)
         ];
     }
 }

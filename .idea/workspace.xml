@@ -21,12 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3555dffb-6af5-4da5-b376-58da6fba5751" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/books/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/books/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +187,7 @@
       <workItem from="1620993629811" duration="7084000" />
       <workItem from="1621083078134" duration="9958000" />
       <workItem from="1621173867273" duration="8119000" />
-      <workItem from="1621261681965" duration="2691000" />
+      <workItem from="1621261681965" duration="7739000" />
     </task>
     <servers />
   </component>
@@ -207,6 +207,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="563" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621279977919">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="563" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1621279977919" />
     <state x="547" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620210776525">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
