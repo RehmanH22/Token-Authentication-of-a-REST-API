@@ -18,9 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/details', 'books.detail');
+
 Route::get('/books', [BooksController::class, 'index']);
 Route::post('/books', [BooksController::class, 'store']);
+Route::get('/books/{book}/show', [BooksController::class, 'show']);
 Route::get('/books/create', [BooksController::class, 'create']);
 Route::get('/books/{book}/edit', [BooksController::class, 'edit']);
 Route::put('/books/{book}', [BooksController::class, 'update']);
-//Route::delete('/books/{book}', [BooksController::class, 'destroy']);
+Route::delete('/books/{book}', [BooksController::class, 'destroy']);

@@ -23,7 +23,7 @@ class BookFactory extends Factory
     {
         return [
             'title' => $this->faker->numerify('Book ##'),
-            'description' => $this->faker->words(8,6),
+            'description' => $this->faker->words(100,60),
             'price' => $this->faker->numberBetween(1,30),
         ];
     }

@@ -19,6 +19,11 @@ class BooksController extends Controller
         return view('books.create');
     }
 
+    public function show(Book $book)
+    {
+        return view('books.show',compact('book'));
+    }
+
     public function store()
     {
         $validatedAttributes = request()->validate([
@@ -51,4 +56,12 @@ class BooksController extends Controller
 
         return redirect('/books');
     }
+
+    public function destroy(Book $book)
+    {
+        $book->delete();
+
+        return redirect('/books');
+    }
+
 }

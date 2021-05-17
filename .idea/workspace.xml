@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3555dffb-6af5-4da5-b376-58da6fba5751" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/books/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -182,7 +186,8 @@
       <workItem from="1620907466897" duration="5236000" />
       <workItem from="1620993629811" duration="7084000" />
       <workItem from="1621083078134" duration="9958000" />
-      <workItem from="1621173867273" duration="2531000" />
+      <workItem from="1621173867273" duration="8119000" />
+      <workItem from="1621261681965" duration="2691000" />
     </task>
     <servers />
   </component>
